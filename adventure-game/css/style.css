@@ -146,8 +146,17 @@ main {
   flex-direction: row;
   margin: 0 auto;
   margin-top: 100px;
+  justify-content: space-around;
 }
 
-#levels button {
+#option1 {
+  display: none;
+}
+
+#option2 {
+  display: none;
+}
+
+#option3 {
   display: none;
 }
