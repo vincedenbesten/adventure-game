@@ -1,0 +1,153 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: arial;
+}
+
+body {
+  background-color: #1a1a1a;
+  background-image: url(grfx/homebg.jpg);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 60px;
+  color: #595959;
+  text-align: center;
+}
+
+#startmenu {
+  width: 500px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #d9d9d9;
+  padding: 10px;
+  background-image: url(grfx/shadowshape.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+section h1 {
+  margin-bottom: 230px;
+  margin-top: 50px;
+}
+
+section button {
+  display: flex;
+  align-self: center;
+}
+
+button {
+  width: auto;
+  border-radius: 5px;
+  background-color: #b3b3b3;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+}
+button:hover {
+  opacity: 0.2;
+}
+
+main {
+  background-image: url(grfx/begingame.jpg);
+  width: 1500px;
+  height: 800px;
+  position:relative;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  display: none;
+}
+
+#introstyle {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+  padding: 10px;
+  width: 400px;
+}
+
+#introstyle {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+#nextbtn {
+  color: #fff;
+}
+
+#voetgangersbrug {
+  top: 110px;
+  left: 740px;
+  color: #000;
+  background-color: #d9d9d9;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+}
+#autobrug {
+  top: 210px;
+  left: 670px;
+  color: #000;
+  background-color: #d9d9d9;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+}
+#spoorbrug {
+  top: 310px;
+  left: 570px;
+  color: #000;
+  background-color: #d9d9d9;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+}
+#zwemmen {
+  top: 410px;
+  left: 490px;
+  color: #000;
+  background-color: #d9d9d9;
+  padding: 5px;
+  border-radius: 5px;
+  width: auto;
+  position: absolute;
+  display: none;
+}
+
+#introbruggen {
+  display: none;
+  width: auto;
+}
+
+#levels {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 700px;
+  padding: 20px;
+  border-radius: 20px;
+  display: none;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+#levels button {
+  display: none;
+}

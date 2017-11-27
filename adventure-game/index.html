@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CityEscape</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="javascript.js"></script>
+  </head>
+  <body>
+    <section id="startmenu">
+      <h1>CityEscape</h1>
+      <button type="button" name="button" onclick="startintro()">START</button>
+    </section>
+
+    <main id="overzicht">
+      <h1 id="levelnaam">Intro</h1>
+      <div id="introstyle">
+        <p id="intro">
+          Je bent aan de rechter kant van het water (zie de pijl).
+          Hoe je hier bent gekomen weet je niet, wat je wel weet is dat toen je hier wakker werd je geen geld of telefoon meer hadt.
+          De mogelijkheden om deze onbekende stad uit te komen bevinden zich aan de andere kant van het water, hier moet je zien te komen.
+        </p>
+        <button id="nextbtn" type="button" name="button" onclick="intronext1()">Next</button>
+      </div>
+      <div id="introbruggen">
+        <button id="voetgangersbrug">Voetgangersbrug</button>
+        <button id="autobrug">Autobrug</button>
+        <button id="spoorbrug">Spoorbrug</button>
+      </div>
+      <button id="zwemmen">Zwemmen</button>
+      <section id="levels">
+        <p id="leveltekst"></p>
+        <div>
+          <button id="option1" type="button" name="button"></button>
+          <button id="option2" type="button" name="button"></button>
+          <button id="option3" type="button" name="button"></button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
